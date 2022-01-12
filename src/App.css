@@ -36,3 +36,62 @@
     transform: rotate(360deg);
   }
 }
+
+.Header{
+  height: 500px;
+  background-color: rgba(10, 10, 41, 0.822);
+}
+
+.NavBar{
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.icons{
+  width: 60%;
+  height: 200px;
+}
+
+.Me{
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.presentation{
+  height: 200px;
+  width: 40%;
+  border-radius:50%;
+  height: 380px;
+  width: 380px;
+  margin-left: 15%;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+  border: 1px solid black;
+}
+
+a,h3,h4{
+  color: white;
+  font-weight: bolder;
+}
+
+.Button{
+  height: 40px;
+  width: 150px;
+  border-radius: 20px;
+  background-color: rgba(241, 99, 4, 0.836);
+  cursor: pointer;
+}
+
+a:hover{
+  color: blue;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
