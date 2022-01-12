@@ -51,6 +51,7 @@
 .icons{
   width: 60%;
   height: 200px;
+  cursor: pointer;
 }
 
 .Me{
@@ -90,8 +91,54 @@ a:hover{
   color: blue;
 }
 
-img{
+.Img{
   height: 100%;
   width: 100%;
   border-radius: 50%;
+}
+
+h2{
+  text-decoration: underline overline orange;
+}
+
+.Main{
+  border: 3px solid black;
+  align-items: center;
+  text-align: center;
+}
+
+.AboutMe{
+  height: 300px;
+  width: 50%;
+  margin-left: 25%;
+  display: flex;
+}
+
+.contain{
+  box-shadow: 10px 5px 5px rgba(223, 81, 81, 0.308);
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.Part2{
+  border: 2px solid black;
+  height: 140px;
+}
+
+p{
+  text-decoration: underline;
+}
+
+.Resume{
+  border: 2px solid blue;
+  height: 400px;
+  width: 50%;
+  margin-left: 25%;
+}
+
+.Progress{
+  border: 2px solid green;
 }
