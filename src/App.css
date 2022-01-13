@@ -75,7 +75,7 @@
 }
 
 a,h3,h4{
-  color: white;
+  color: black;
   font-weight: bolder;
 }
 
@@ -109,13 +109,28 @@ h2{
 
 .AboutMe{
   height: 300px;
-  width: 50%;
-  margin-left: 25%;
+  width: 40%;
   display: flex;
+  margin-left: 30%;
+  box-shadow: -15px -15px -15px rgba(255,255,255,0.2),
+              15px 15px 15px rgba(0,0,0,0.1);
+              background-color: rgba(58, 47, 47, 0.027);
 }
 
-.contain{
-  box-shadow: 10px 5px 5px rgba(223, 81, 81, 0.308);
+.Contain1{
+  width: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.219);
+  box-shadow: -15px -15px -15px rgba(255,255,255,0.2),
+              15px 15px 15px rgba(0,0,0,0.1);
+}
+
+.Contain2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  width: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.219);
+  box-shadow: -15px -15px -15px rgba(255,255,255,0.2),
+              15px 15px 15px rgba(0,0,0,0.1)
 }
 
 img{
@@ -141,4 +156,65 @@ p{
 
 .Progress{
   border: 2px solid green;
+}
+
+.footer{
+  background-color:rgba(10, 10, 41, 0.822); ;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.touch{
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+}
+
+.formulaire{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(207, 206, 204);
+  height: 400px;
+}
+
+.mail{
+  height: 200px;
+}
+
+input{
+  height: 50px;
+  width: 80%;
+  border-radius: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: gray;
+}
+
+.Mes{
+  height: 80px;
+  font-size: 1rem;
+}
+
+.Send{
+  height: 30px;
+  width: 20%;
+  border-radius: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.199);
+  cursor: pointer;
+}
+
+::placeholder{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: black;
 }

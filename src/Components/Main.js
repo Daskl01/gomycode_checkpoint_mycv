@@ -7,12 +7,12 @@ function Main(){
             <h2>About Me</h2>
             <p>Why Choose Me</p>
         <div className="AboutMe">
-            <div className="Contain">
+            <div className="Contain1">
                 <img src="/me.jpeg"/>
             </div>
-            <div className="Contain">
-                Développeur Web et mobile full stack avec une connaissance de base des piles MERN avec redux,<br/> 
-                ainsi qu'un don pour construire des applications avec la plus grande éfficacité.
+            <div className="Contain2">
+                Développeur Web et mobile fullStack Js <br/>avec une connaissance <br/> de base des piles MERN <br/> avec redux,<br/> 
+                ainsi qu'un don <br/> pour construire <br/> des applications avec <br/> la plus grande éfficacité.
             </div>
         </div>
         <div className="Part2">
@@ -33,4 +33,4 @@ function Main(){
     )
 }
 
-export default Main
+export default Main;

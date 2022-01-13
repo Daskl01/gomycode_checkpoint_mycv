@@ -22,7 +22,7 @@ function Header(){
                     <a href="https://twitter.com/home"><FaTwitterSquare/></a>
                     <h3>Hello,I'm Diaby<br/> I'm FullStack Developper💻</h3>
                     <h4>Knack of Buildings applications with front and back end operations</h4>
-                    <button  className="Button"><a>Get Resume</a></button>
+                    <button  className="Button"><a href="CV Daskl.pdf">Get Resume</a></button>
                 </div>
                 <div className="presentation">
                 <img className="Img" src="/pp.jpg" alt=""/>
