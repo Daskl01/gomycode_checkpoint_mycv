@@ -102,9 +102,9 @@ h2{
 }
 
 .Main{
-  border: 3px solid black;
   align-items: center;
   text-align: center;
+  background-color: rgba(35, 61, 68, 0.712);
 }
 
 .AboutMe{
@@ -139,23 +139,20 @@ img{
 }
 
 .Part2{
-  border: 2px solid black;
-  height: 140px;
-}
-
-p{
-  text-decoration: underline;
+  height: 120px;
 }
 
 .Resume{
-  border: 2px solid blue;
-  height: 400px;
+  height: 355px;
   width: 50%;
   margin-left: 25%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .Progress{
   border: 2px solid green;
+  height: 700px;
 }
 
 .footer{
@@ -165,6 +162,7 @@ p{
   justify-content: space-around;
   text-align: center;
   align-items: center;
+  margin-top: 1%;
 }
 
 .touch{
@@ -217,4 +215,9 @@ input{
   font-size: 1rem;
   font-weight: bold;
   color: black;
+
+}
+
+.p{
+  font-weight: bold;
 }
